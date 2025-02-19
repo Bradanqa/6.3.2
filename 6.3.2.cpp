@@ -67,6 +67,7 @@
          }
 
          fileStream << "Error to log file: " << message << std::endl;
+         fileStream.close();
       }
 
    private:
